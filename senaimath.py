@@ -6,6 +6,7 @@ def numero_e(termo):
     for n in range(termo):
         if n >0:
             fat *= n
-        soma += 1/fat
+        soma += 1/fat # numero será divifido pelo fatorial
+
     return soma
 
